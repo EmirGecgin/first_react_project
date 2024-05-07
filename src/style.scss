@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+$icon-size:50px;
+.feature {
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    aspect-ratio: 1;
+    display: flex;
+    height: $icon-size;
+    margin-top: calc((-1/2) * $icon-size);
+}
